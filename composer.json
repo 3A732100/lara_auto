@@ -7,5 +7,10 @@
             "email": "3a732100@gm.student.ncut.edu.tw"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Demo\\": "./src/Demo"
+        }
+    }
 }
